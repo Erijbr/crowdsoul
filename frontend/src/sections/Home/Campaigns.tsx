@@ -11,7 +11,7 @@ interface IProps {
 }
 
 const CampaignsSection = ({boxProps, titleProps}: IProps) => {
-    const slides = CampaignsData.campaigns.map(c => (<Carousel.Slide key={c._id}><CampaignCard data={c}/></Carousel.Slide>))
+    const slides = CampaignsData.getCampaigns().map(c => (<Carousel.Slide key={c._id}><CampaignCard data={c}/></Carousel.Slide>))
 
     return (
         <Box {...boxProps}>

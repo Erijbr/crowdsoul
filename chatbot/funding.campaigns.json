@@ -1,0 +1,1900 @@
+[{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6facd"
+  },
+  "title": "Rebuild After the Storm",
+  "description": "Soutenez notre mission : Rebuild After the Storm.",
+  "createdAt": "2025-04-21T18:10:18.673156Z",
+  "mainImage": "crisis.jpg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 15,
+  "amountRaised": "13384",
+  "goal": "45843",
+  "contributors": 642,
+  "category": "Crisis Relief",
+  "country": "France",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6face"
+  },
+  "title": "Community Kitchen Drive",
+  "description": "Soutenez notre mission : Community Kitchen Drive.",
+  "createdAt": "2025-04-27T18:10:18.673156Z",
+  "mainImage": "nonprofit.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 55,
+  "amountRaised": "10707",
+  "goal": "21373",
+  "contributors": 63,
+  "category": "Nonprofit",
+  "country": "France",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6facf"
+  },
+  "title": "Education Tablets for Kids",
+  "description": "Soutenez notre mission : Education Tablets for Kids.",
+  "createdAt": "2025-04-30T18:10:18.673156Z",
+  "mainImage": "techno.png",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 56,
+  "amountRaised": "3927",
+  "goal": "36549",
+  "contributors": 514,
+  "category": "Technology",
+  "country": "Canada",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fad0"
+  },
+  "title": "Operation Lifeline",
+  "description": "Soutenez notre mission : Operation Lifeline.",
+  "createdAt": "2025-04-25T18:10:18.673156Z",
+  "mainImage": "medical.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 24,
+  "amountRaised": "20449",
+  "goal": "44519",
+  "contributors": 603,
+  "category": "Medical",
+  "country": "France",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fad1"
+  },
+  "title": "Eco Future Foundation",
+  "description": "Soutenez notre mission : Eco Future Foundation.",
+  "createdAt": "2025-04-25T18:10:18.673156Z",
+  "mainImage": "env.jpg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 52,
+  "amountRaised": "21227",
+  "goal": "46093",
+  "contributors": 942,
+  "category": "Environment",
+  "country": "Australia",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fad2"
+  },
+  "title": "Eco Future Foundation",
+  "description": "Soutenez notre mission : Eco Future Foundation.",
+  "createdAt": "2025-05-01T18:10:18.673156Z",
+  "mainImage": "env.jpg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 36,
+  "amountRaised": "2361",
+  "goal": "7506",
+  "contributors": 854,
+  "category": "Environment",
+  "country": "India",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fad3"
+  },
+  "title": "Voices of Change",
+  "description": "Soutenez notre mission : Voices of Change.",
+  "createdAt": "2025-04-24T18:10:18.673156Z",
+  "mainImage": "film.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 22,
+  "amountRaised": "7447",
+  "goal": "22901",
+  "contributors": 156,
+  "category": "Film & Videos",
+  "country": "Australia",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fad4"
+  },
+  "title": "Shelter for Strays",
+  "description": "Soutenez notre mission : Shelter for Strays.",
+  "createdAt": "2025-04-21T18:10:18.673156Z",
+  "mainImage": "animal.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 25,
+  "amountRaised": "31965",
+  "goal": "41895",
+  "contributors": 376,
+  "category": "Animals",
+  "country": "Germany",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fad5"
+  },
+  "title": "Health Monitoring App",
+  "description": "Soutenez notre mission : Health Monitoring App.",
+  "createdAt": "2025-04-22T18:10:18.673156Z",
+  "mainImage": "techno.png",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 27,
+  "amountRaised": "16496",
+  "goal": "24710",
+  "contributors": 217,
+  "category": "Technology",
+  "country": "Germany",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fad6"
+  },
+  "title": "Bright Futures Fund",
+  "description": "Soutenez notre mission : Bright Futures Fund.",
+  "createdAt": "2025-04-22T18:10:18.673156Z",
+  "mainImage": "nonprofit.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 47,
+  "amountRaised": "4726",
+  "goal": "9703",
+  "contributors": 917,
+  "category": "Nonprofit",
+  "country": "Canada",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fad7"
+  },
+  "title": "War Refugee Support",
+  "description": "Soutenez notre mission : War Refugee Support.",
+  "createdAt": "2025-04-21T18:10:18.673156Z",
+  "mainImage": "crisis.jpg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 15,
+  "amountRaised": "19440",
+  "goal": "27002",
+  "contributors": 263,
+  "category": "Crisis Relief",
+  "country": "Germany",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fad8"
+  },
+  "title": "Books for All",
+  "description": "Soutenez notre mission : Books for All.",
+  "createdAt": "2025-04-23T18:10:18.673156Z",
+  "mainImage": "nonprofit.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 35,
+  "amountRaised": "4077",
+  "goal": "10967",
+  "contributors": 489,
+  "category": "Nonprofit",
+  "country": "Canada",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fad9"
+  },
+  "title": "Disaster Support Unit",
+  "description": "Soutenez notre mission : Disaster Support Unit.",
+  "createdAt": "2025-04-29T18:10:18.673156Z",
+  "mainImage": "emergency.png",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 56,
+  "amountRaised": "4750",
+  "goal": "13016",
+  "contributors": 620,
+  "category": "Emergency",
+  "country": "United States",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fada"
+  },
+  "title": "Books for All",
+  "description": "Soutenez notre mission : Books for All.",
+  "createdAt": "2025-04-22T18:10:18.673156Z",
+  "mainImage": "nonprofit.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 53,
+  "amountRaised": "11170",
+  "goal": "38978",
+  "contributors": 497,
+  "category": "Nonprofit",
+  "country": "Germany",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fadb"
+  },
+  "title": "Endangered Species Aid",
+  "description": "Soutenez notre mission : Endangered Species Aid.",
+  "createdAt": "2025-04-29T18:10:18.673156Z",
+  "mainImage": "animal.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 41,
+  "amountRaised": "4932",
+  "goal": "33818",
+  "contributors": 451,
+  "category": "Animals",
+  "country": "Canada",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fadc"
+  },
+  "title": "Help a Family Today",
+  "description": "Soutenez notre mission : Help a Family Today.",
+  "createdAt": "2025-04-23T18:10:18.673156Z",
+  "mainImage": "fin.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 37,
+  "amountRaised": "8892",
+  "goal": "33055",
+  "contributors": 934,
+  "category": "Financial emergency",
+  "country": "Brazil",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fadd"
+  },
+  "title": "Tech4Good Initiative",
+  "description": "Soutenez notre mission : Tech4Good Initiative.",
+  "createdAt": "2025-04-22T18:10:18.673156Z",
+  "mainImage": "techno.png",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 12,
+  "amountRaised": "3499",
+  "goal": "44232",
+  "contributors": 295,
+  "category": "Technology",
+  "country": "India",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fade"
+  },
+  "title": "Emergency Aid Network",
+  "description": "Soutenez notre mission : Emergency Aid Network.",
+  "createdAt": "2025-04-22T18:10:18.673156Z",
+  "mainImage": "crisis.jpg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 23,
+  "amountRaised": "2259",
+  "goal": "40424",
+  "contributors": 330,
+  "category": "Crisis Relief",
+  "country": "Australia",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fadf"
+  },
+  "title": "Voices of Change",
+  "description": "Soutenez notre mission : Voices of Change.",
+  "createdAt": "2025-05-01T18:10:18.673156Z",
+  "mainImage": "film.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 57,
+  "amountRaised": "33651",
+  "goal": "40527",
+  "contributors": 563,
+  "category": "Film & Videos",
+  "country": "France",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fae0"
+  },
+  "title": "War Refugee Support",
+  "description": "Soutenez notre mission : War Refugee Support.",
+  "createdAt": "2025-04-30T18:10:18.673156Z",
+  "mainImage": "crisis.jpg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 46,
+  "amountRaised": "4369",
+  "goal": "6801",
+  "contributors": 215,
+  "category": "Crisis Relief",
+  "country": "Germany",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fae1"
+  },
+  "title": "Education Tablets for Kids",
+  "description": "Soutenez notre mission : Education Tablets for Kids.",
+  "createdAt": "2025-04-24T18:10:18.673156Z",
+  "mainImage": "techno.png",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 53,
+  "amountRaised": "15802",
+  "goal": "37611",
+  "contributors": 956,
+  "category": "Technology",
+  "country": "United States",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fae2"
+  },
+  "title": "Books for All",
+  "description": "Soutenez notre mission : Books for All.",
+  "createdAt": "2025-04-30T18:10:18.673156Z",
+  "mainImage": "nonprofit.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 18,
+  "amountRaised": "5209",
+  "goal": "13860",
+  "contributors": 170,
+  "category": "Nonprofit",
+  "country": "United States",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fae3"
+  },
+  "title": "Global Crisis Fund",
+  "description": "Soutenez notre mission : Global Crisis Fund.",
+  "createdAt": "2025-04-21T18:10:18.673156Z",
+  "mainImage": "crisis.jpg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 26,
+  "amountRaised": "3287",
+  "goal": "5542",
+  "contributors": 339,
+  "category": "Crisis Relief",
+  "country": "India",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fae4"
+  },
+  "title": "Shelter for Strays",
+  "description": "Soutenez notre mission : Shelter for Strays.",
+  "createdAt": "2025-05-01T18:10:18.673156Z",
+  "mainImage": "animal.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 55,
+  "amountRaised": "856",
+  "goal": "7007",
+  "contributors": 945,
+  "category": "Animals",
+  "country": "India",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fae5"
+  },
+  "title": "Rewilding Africa",
+  "description": "Soutenez notre mission : Rewilding Africa.",
+  "createdAt": "2025-04-21T18:10:18.673156Z",
+  "mainImage": "env.jpg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 45,
+  "amountRaised": "8878",
+  "goal": "16926",
+  "contributors": 334,
+  "category": "Environment",
+  "country": "Australia",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fae6"
+  },
+  "title": "Bright Futures Fund",
+  "description": "Soutenez notre mission : Bright Futures Fund.",
+  "createdAt": "2025-04-24T18:10:18.673156Z",
+  "mainImage": "nonprofit.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 28,
+  "amountRaised": "10212",
+  "goal": "39966",
+  "contributors": 566,
+  "category": "Nonprofit",
+  "country": "Australia",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fae7"
+  },
+  "title": "WildAid Rescue",
+  "description": "Soutenez notre mission : WildAid Rescue.",
+  "createdAt": "2025-04-30T18:10:18.673156Z",
+  "mainImage": "animal.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 51,
+  "amountRaised": "19646",
+  "goal": "32221",
+  "contributors": 995,
+  "category": "Animals",
+  "country": "Brazil",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fae8"
+  },
+  "title": "War Refugee Support",
+  "description": "Soutenez notre mission : War Refugee Support.",
+  "createdAt": "2025-04-26T18:10:18.673156Z",
+  "mainImage": "crisis.jpg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 32,
+  "amountRaised": "14967",
+  "goal": "42963",
+  "contributors": 221,
+  "category": "Crisis Relief",
+  "country": "Germany",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fae9"
+  },
+  "title": "Clean Ocean Project",
+  "description": "Soutenez notre mission : Clean Ocean Project.",
+  "createdAt": "2025-04-21T18:10:18.673156Z",
+  "mainImage": "env.jpg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 24,
+  "amountRaised": "25878",
+  "goal": "27850",
+  "contributors": 796,
+  "category": "Environment",
+  "country": "Canada",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6faea"
+  },
+  "title": "Operation Lifeline",
+  "description": "Soutenez notre mission : Operation Lifeline.",
+  "createdAt": "2025-04-30T18:10:18.673156Z",
+  "mainImage": "medical.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 39,
+  "amountRaised": "27563",
+  "goal": "35417",
+  "contributors": 954,
+  "category": "Medical",
+  "country": "France",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6faeb"
+  },
+  "title": "Rescue & Recover",
+  "description": "Soutenez notre mission : Rescue & Recover.",
+  "createdAt": "2025-04-27T18:10:18.673156Z",
+  "mainImage": "emergency.png",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 27,
+  "amountRaised": "20002",
+  "goal": "31502",
+  "contributors": 993,
+  "category": "Emergency",
+  "country": "Germany",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6faec"
+  },
+  "title": "Bright Futures Fund",
+  "description": "Soutenez notre mission : Bright Futures Fund.",
+  "createdAt": "2025-05-01T18:10:18.673156Z",
+  "mainImage": "nonprofit.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 45,
+  "amountRaised": "14650",
+  "goal": "24166",
+  "contributors": 577,
+  "category": "Nonprofit",
+  "country": "India",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6faed"
+  },
+  "title": "Clean Ocean Project",
+  "description": "Soutenez notre mission : Clean Ocean Project.",
+  "createdAt": "2025-04-29T18:10:18.673156Z",
+  "mainImage": "env.jpg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 59,
+  "amountRaised": "9356",
+  "goal": "13312",
+  "contributors": 721,
+  "category": "Environment",
+  "country": "France",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6faee"
+  },
+  "title": "Emergency Rent Support",
+  "description": "Soutenez notre mission : Emergency Rent Support.",
+  "createdAt": "2025-04-29T18:10:18.673156Z",
+  "mainImage": "fin.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 50,
+  "amountRaised": "2127",
+  "goal": "31279",
+  "contributors": 627,
+  "category": "Financial emergency",
+  "country": "France",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6faef"
+  },
+  "title": "Remote Clinic Revival",
+  "description": "Soutenez notre mission : Remote Clinic Revival.",
+  "createdAt": "2025-04-29T18:10:18.673156Z",
+  "mainImage": "medical.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 41,
+  "amountRaised": "26520",
+  "goal": "41938",
+  "contributors": 249,
+  "category": "Medical",
+  "country": "United States",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6faf0"
+  },
+  "title": "War Refugee Support",
+  "description": "Soutenez notre mission : War Refugee Support.",
+  "createdAt": "2025-04-30T18:10:18.673156Z",
+  "mainImage": "crisis.jpg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 30,
+  "amountRaised": "9729",
+  "goal": "16396",
+  "contributors": 729,
+  "category": "Crisis Relief",
+  "country": "South Africa",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6faf1"
+  },
+  "title": "Community Kitchen Drive",
+  "description": "Soutenez notre mission : Community Kitchen Drive.",
+  "createdAt": "2025-04-24T18:10:18.673156Z",
+  "mainImage": "nonprofit.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 10,
+  "amountRaised": "940",
+  "goal": "18083",
+  "contributors": 603,
+  "category": "Nonprofit",
+  "country": "India",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6faf2"
+  },
+  "title": "Digital Aid Program",
+  "description": "Soutenez notre mission : Digital Aid Program.",
+  "createdAt": "2025-04-30T18:10:18.673156Z",
+  "mainImage": "techno.png",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 45,
+  "amountRaised": "3619",
+  "goal": "38349",
+  "contributors": 207,
+  "category": "Technology",
+  "country": "United States",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6faf3"
+  },
+  "title": "Hope for Paws",
+  "description": "Soutenez notre mission : Hope for Paws.",
+  "createdAt": "2025-04-26T18:10:18.673156Z",
+  "mainImage": "animal.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 20,
+  "amountRaised": "10023",
+  "goal": "22549",
+  "contributors": 392,
+  "category": "Animals",
+  "country": "Brazil",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6faf4"
+  },
+  "title": "Save the Forest",
+  "description": "Soutenez notre mission : Save the Forest.",
+  "createdAt": "2025-04-29T18:10:18.673156Z",
+  "mainImage": "env.jpg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 13,
+  "amountRaised": "19435",
+  "goal": "32490",
+  "contributors": 633,
+  "category": "Environment",
+  "country": "Canada",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6faf5"
+  },
+  "title": "Clean Ocean Project",
+  "description": "Soutenez notre mission : Clean Ocean Project.",
+  "createdAt": "2025-04-26T18:10:18.673156Z",
+  "mainImage": "env.jpg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 25,
+  "amountRaised": "34771",
+  "goal": "45498",
+  "contributors": 862,
+  "category": "Environment",
+  "country": "Germany",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6faf6"
+  },
+  "title": "Hope for Paws",
+  "description": "Soutenez notre mission : Hope for Paws.",
+  "createdAt": "2025-04-27T18:10:18.673156Z",
+  "mainImage": "animal.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 48,
+  "amountRaised": "8861",
+  "goal": "22693",
+  "contributors": 437,
+  "category": "Animals",
+  "country": "Germany",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6faf7"
+  },
+  "title": "Rescue & Recover",
+  "description": "Soutenez notre mission : Rescue & Recover.",
+  "createdAt": "2025-04-25T18:10:18.673156Z",
+  "mainImage": "emergency.png",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 26,
+  "amountRaised": "41266",
+  "goal": "49234",
+  "contributors": 154,
+  "category": "Emergency",
+  "country": "France",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6faf8"
+  },
+  "title": "Lights, Camera, Impact",
+  "description": "Soutenez notre mission : Lights, Camera, Impact.",
+  "createdAt": "2025-04-23T18:10:18.673156Z",
+  "mainImage": "film.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 46,
+  "amountRaised": "9526",
+  "goal": "24917",
+  "contributors": 171,
+  "category": "Film & Videos",
+  "country": "United States",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6faf9"
+  },
+  "title": "Global Crisis Fund",
+  "description": "Soutenez notre mission : Global Crisis Fund.",
+  "createdAt": "2025-04-28T18:10:18.673156Z",
+  "mainImage": "crisis.jpg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 11,
+  "amountRaised": "14276",
+  "goal": "20599",
+  "contributors": 802,
+  "category": "Crisis Relief",
+  "country": "Germany",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fafa"
+  },
+  "title": "Help a Family Today",
+  "description": "Soutenez notre mission : Help a Family Today.",
+  "createdAt": "2025-04-21T18:10:18.673156Z",
+  "mainImage": "fin.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 30,
+  "amountRaised": "3788",
+  "goal": "22795",
+  "contributors": 870,
+  "category": "Financial emergency",
+  "country": "South Africa",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fafb"
+  },
+  "title": "Earthquake Relief Now",
+  "description": "Soutenez notre mission : Earthquake Relief Now.",
+  "createdAt": "2025-04-21T18:10:18.673156Z",
+  "mainImage": "emergency.png",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 15,
+  "amountRaised": "19574",
+  "goal": "47787",
+  "contributors": 150,
+  "category": "Emergency",
+  "country": "South Africa",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fafc"
+  },
+  "title": "Operation Lifeline",
+  "description": "Soutenez notre mission : Operation Lifeline.",
+  "createdAt": "2025-04-23T18:10:18.673156Z",
+  "mainImage": "medical.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 11,
+  "amountRaised": "39691",
+  "goal": "49963",
+  "contributors": 410,
+  "category": "Medical",
+  "country": "Australia",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fafd"
+  },
+  "title": "Bright Futures Fund",
+  "description": "Soutenez notre mission : Bright Futures Fund.",
+  "createdAt": "2025-04-27T18:10:18.673156Z",
+  "mainImage": "nonprofit.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 35,
+  "amountRaised": "22683",
+  "goal": "30788",
+  "contributors": 934,
+  "category": "Nonprofit",
+  "country": "India",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fafe"
+  },
+  "title": "Books for All",
+  "description": "Soutenez notre mission : Books for All.",
+  "createdAt": "2025-04-28T18:10:18.673156Z",
+  "mainImage": "nonprofit.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 26,
+  "amountRaised": "22537",
+  "goal": "45253",
+  "contributors": 834,
+  "category": "Nonprofit",
+  "country": "South Africa",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6faff"
+  },
+  "title": "Emergency Aid Network",
+  "description": "Soutenez notre mission : Emergency Aid Network.",
+  "createdAt": "2025-04-23T18:10:18.673156Z",
+  "mainImage": "crisis.jpg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 19,
+  "amountRaised": "3745",
+  "goal": "36650",
+  "contributors": 249,
+  "category": "Crisis Relief",
+  "country": "Australia",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb00"
+  },
+  "title": "Clean Ocean Project",
+  "description": "Soutenez notre mission : Clean Ocean Project.",
+  "createdAt": "2025-05-01T18:10:18.673156Z",
+  "mainImage": "env.jpg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 49,
+  "amountRaised": "6366",
+  "goal": "15097",
+  "contributors": 824,
+  "category": "Environment",
+  "country": "Germany",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb01"
+  },
+  "title": "Hope for Paws",
+  "description": "Soutenez notre mission : Hope for Paws.",
+  "createdAt": "2025-04-28T18:10:18.673156Z",
+  "mainImage": "animal.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 19,
+  "amountRaised": "32012",
+  "goal": "49745",
+  "contributors": 610,
+  "category": "Animals",
+  "country": "Brazil",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb02"
+  },
+  "title": "Digital Aid Program",
+  "description": "Soutenez notre mission : Digital Aid Program.",
+  "createdAt": "2025-04-26T18:10:18.673156Z",
+  "mainImage": "techno.png",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 55,
+  "amountRaised": "7451",
+  "goal": "22195",
+  "contributors": 893,
+  "category": "Technology",
+  "country": "France",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb03"
+  },
+  "title": "Help a Family Today",
+  "description": "Soutenez notre mission : Help a Family Today.",
+  "createdAt": "2025-04-28T18:10:18.673156Z",
+  "mainImage": "fin.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 38,
+  "amountRaised": "24479",
+  "goal": "47683",
+  "contributors": 206,
+  "category": "Financial emergency",
+  "country": "Germany",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb04"
+  },
+  "title": "Save the Forest",
+  "description": "Soutenez notre mission : Save the Forest.",
+  "createdAt": "2025-04-30T18:10:18.673156Z",
+  "mainImage": "env.jpg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 58,
+  "amountRaised": "2838",
+  "goal": "37396",
+  "contributors": 912,
+  "category": "Environment",
+  "country": "Brazil",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb05"
+  },
+  "title": "Global Crisis Fund",
+  "description": "Soutenez notre mission : Global Crisis Fund.",
+  "createdAt": "2025-04-30T18:10:18.673156Z",
+  "mainImage": "crisis.jpg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 24,
+  "amountRaised": "3321",
+  "goal": "16274",
+  "contributors": 565,
+  "category": "Crisis Relief",
+  "country": "South Africa",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb06"
+  },
+  "title": "Help a Family Today",
+  "description": "Soutenez notre mission : Help a Family Today.",
+  "createdAt": "2025-04-24T18:10:18.673156Z",
+  "mainImage": "fin.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 20,
+  "amountRaised": "13250",
+  "goal": "48081",
+  "contributors": 300,
+  "category": "Financial emergency",
+  "country": "India",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb07"
+  },
+  "title": "Help a Family Today",
+  "description": "Soutenez notre mission : Help a Family Today.",
+  "createdAt": "2025-04-24T18:10:18.673156Z",
+  "mainImage": "fin.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 52,
+  "amountRaised": "4861",
+  "goal": "33582",
+  "contributors": 361,
+  "category": "Financial emergency",
+  "country": "Germany",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb08"
+  },
+  "title": "Heal the World",
+  "description": "Soutenez notre mission : Heal the World.",
+  "createdAt": "2025-04-25T18:10:18.673156Z",
+  "mainImage": "medical.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 40,
+  "amountRaised": "5281",
+  "goal": "11176",
+  "contributors": 145,
+  "category": "Medical",
+  "country": "France",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb09"
+  },
+  "title": "Endangered Species Aid",
+  "description": "Soutenez notre mission : Endangered Species Aid.",
+  "createdAt": "2025-04-26T18:10:18.673156Z",
+  "mainImage": "animal.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 41,
+  "amountRaised": "15112",
+  "goal": "21960",
+  "contributors": 241,
+  "category": "Animals",
+  "country": "Germany",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb0a"
+  },
+  "title": "Tech4Good Initiative",
+  "description": "Soutenez notre mission : Tech4Good Initiative.",
+  "createdAt": "2025-04-25T18:10:18.673156Z",
+  "mainImage": "techno.png",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 57,
+  "amountRaised": "27105",
+  "goal": "32108",
+  "contributors": 454,
+  "category": "Technology",
+  "country": "Brazil",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb0b"
+  },
+  "title": "Urgent Medical Bills",
+  "description": "Soutenez notre mission : Urgent Medical Bills.",
+  "createdAt": "2025-04-24T18:10:18.673156Z",
+  "mainImage": "fin.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 21,
+  "amountRaised": "27086",
+  "goal": "35345",
+  "contributors": 349,
+  "category": "Financial emergency",
+  "country": "Germany",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb0c"
+  },
+  "title": "Stories that Matter",
+  "description": "Soutenez notre mission : Stories that Matter.",
+  "createdAt": "2025-04-26T18:10:18.673156Z",
+  "mainImage": "film.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 58,
+  "amountRaised": "8652",
+  "goal": "10949",
+  "contributors": 344,
+  "category": "Film & Videos",
+  "country": "Germany",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb0d"
+  },
+  "title": "Remote Clinic Revival",
+  "description": "Soutenez notre mission : Remote Clinic Revival.",
+  "createdAt": "2025-04-22T18:10:18.673156Z",
+  "mainImage": "medical.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 49,
+  "amountRaised": "24641",
+  "goal": "32274",
+  "contributors": 716,
+  "category": "Medical",
+  "country": "Germany",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb0e"
+  },
+  "title": "Stories that Matter",
+  "description": "Soutenez notre mission : Stories that Matter.",
+  "createdAt": "2025-04-23T18:10:18.673156Z",
+  "mainImage": "film.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 26,
+  "amountRaised": "5769",
+  "goal": "43013",
+  "contributors": 11,
+  "category": "Film & Videos",
+  "country": "Brazil",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb0f"
+  },
+  "title": "Shelter for Strays",
+  "description": "Soutenez notre mission : Shelter for Strays.",
+  "createdAt": "2025-04-25T18:10:18.673156Z",
+  "mainImage": "animal.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 35,
+  "amountRaised": "6915",
+  "goal": "30530",
+  "contributors": 116,
+  "category": "Animals",
+  "country": "Australia",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb10"
+  },
+  "title": "Stories that Matter",
+  "description": "Soutenez notre mission : Stories that Matter.",
+  "createdAt": "2025-04-30T18:10:18.673156Z",
+  "mainImage": "film.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 32,
+  "amountRaised": "18875",
+  "goal": "45914",
+  "contributors": 465,
+  "category": "Film & Videos",
+  "country": "Canada",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb11"
+  },
+  "title": "Global Crisis Fund",
+  "description": "Soutenez notre mission : Global Crisis Fund.",
+  "createdAt": "2025-04-29T18:10:18.673156Z",
+  "mainImage": "crisis.jpg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 46,
+  "amountRaised": "23062",
+  "goal": "36810",
+  "contributors": 542,
+  "category": "Crisis Relief",
+  "country": "United States",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb12"
+  },
+  "title": "Community Kitchen Drive",
+  "description": "Soutenez notre mission : Community Kitchen Drive.",
+  "createdAt": "2025-04-21T18:10:18.673156Z",
+  "mainImage": "nonprofit.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 46,
+  "amountRaised": "24795",
+  "goal": "46563",
+  "contributors": 260,
+  "category": "Nonprofit",
+  "country": "Brazil",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb13"
+  },
+  "title": "Remote Clinic Revival",
+  "description": "Soutenez notre mission : Remote Clinic Revival.",
+  "createdAt": "2025-04-24T18:10:18.673156Z",
+  "mainImage": "medical.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 38,
+  "amountRaised": "3455",
+  "goal": "14477",
+  "contributors": 272,
+  "category": "Medical",
+  "country": "Australia",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb14"
+  },
+  "title": "War Refugee Support",
+  "description": "Soutenez notre mission : War Refugee Support.",
+  "createdAt": "2025-04-21T18:10:18.673156Z",
+  "mainImage": "crisis.jpg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 45,
+  "amountRaised": "561",
+  "goal": "12813",
+  "contributors": 883,
+  "category": "Crisis Relief",
+  "country": "Germany",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb15"
+  },
+  "title": "Crisis Family Fund",
+  "description": "Soutenez notre mission : Crisis Family Fund.",
+  "createdAt": "2025-04-22T18:10:18.673156Z",
+  "mainImage": "fin.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 60,
+  "amountRaised": "6188",
+  "goal": "43653",
+  "contributors": 43,
+  "category": "Financial emergency",
+  "country": "Brazil",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb16"
+  },
+  "title": "Books for All",
+  "description": "Soutenez notre mission : Books for All.",
+  "createdAt": "2025-04-28T18:10:18.673156Z",
+  "mainImage": "nonprofit.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 38,
+  "amountRaised": "8573",
+  "goal": "9010",
+  "contributors": 872,
+  "category": "Nonprofit",
+  "country": "Canada",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb17"
+  },
+  "title": "Urgent Medical Bills",
+  "description": "Soutenez notre mission : Urgent Medical Bills.",
+  "createdAt": "2025-04-22T18:10:18.673156Z",
+  "mainImage": "fin.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 28,
+  "amountRaised": "7958",
+  "goal": "10902",
+  "contributors": 718,
+  "category": "Financial emergency",
+  "country": "India",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb18"
+  },
+  "title": "Heal the World",
+  "description": "Soutenez notre mission : Heal the World.",
+  "createdAt": "2025-04-28T18:10:18.673156Z",
+  "mainImage": "medical.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 54,
+  "amountRaised": "15153",
+  "goal": "34722",
+  "contributors": 555,
+  "category": "Medical",
+  "country": "United States",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb19"
+  },
+  "title": "Disaster Support Unit",
+  "description": "Soutenez notre mission : Disaster Support Unit.",
+  "createdAt": "2025-04-30T18:10:18.673156Z",
+  "mainImage": "emergency.png",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 42,
+  "amountRaised": "760",
+  "goal": "16187",
+  "contributors": 541,
+  "category": "Emergency",
+  "country": "Australia",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb1a"
+  },
+  "title": "Global Crisis Fund",
+  "description": "Soutenez notre mission : Global Crisis Fund.",
+  "createdAt": "2025-04-24T18:10:18.673156Z",
+  "mainImage": "crisis.jpg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 28,
+  "amountRaised": "12257",
+  "goal": "48198",
+  "contributors": 836,
+  "category": "Crisis Relief",
+  "country": "United States",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb1b"
+  },
+  "title": "Emergency Rent Support",
+  "description": "Soutenez notre mission : Emergency Rent Support.",
+  "createdAt": "2025-04-30T18:10:18.673156Z",
+  "mainImage": "fin.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 59,
+  "amountRaised": "1892",
+  "goal": "12728",
+  "contributors": 15,
+  "category": "Financial emergency",
+  "country": "South Africa",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb1c"
+  },
+  "title": "Rewilding Africa",
+  "description": "Soutenez notre mission : Rewilding Africa.",
+  "createdAt": "2025-04-25T18:10:18.673156Z",
+  "mainImage": "env.jpg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 46,
+  "amountRaised": "6148",
+  "goal": "39962",
+  "contributors": 962,
+  "category": "Environment",
+  "country": "Australia",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb1d"
+  },
+  "title": "Shelter for Strays",
+  "description": "Soutenez notre mission : Shelter for Strays.",
+  "createdAt": "2025-04-29T18:10:18.673156Z",
+  "mainImage": "animal.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 38,
+  "amountRaised": "5078",
+  "goal": "10372",
+  "contributors": 122,
+  "category": "Animals",
+  "country": "India",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb1e"
+  },
+  "title": "Help a Family Today",
+  "description": "Soutenez notre mission : Help a Family Today.",
+  "createdAt": "2025-04-21T18:10:18.673156Z",
+  "mainImage": "fin.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 57,
+  "amountRaised": "31061",
+  "goal": "33090",
+  "contributors": 317,
+  "category": "Financial emergency",
+  "country": "India",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb1f"
+  },
+  "title": "Rewilding Africa",
+  "description": "Soutenez notre mission : Rewilding Africa.",
+  "createdAt": "2025-04-28T18:10:18.673156Z",
+  "mainImage": "env.jpg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 37,
+  "amountRaised": "22778",
+  "goal": "39501",
+  "contributors": 901,
+  "category": "Environment",
+  "country": "Australia",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb20"
+  },
+  "title": "Endangered Species Aid",
+  "description": "Soutenez notre mission : Endangered Species Aid.",
+  "createdAt": "2025-04-22T18:10:18.673156Z",
+  "mainImage": "animal.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 43,
+  "amountRaised": "18951",
+  "goal": "23766",
+  "contributors": 764,
+  "category": "Animals",
+  "country": "India",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb21"
+  },
+  "title": "Earthquake Relief Now",
+  "description": "Soutenez notre mission : Earthquake Relief Now.",
+  "createdAt": "2025-04-24T18:10:18.673156Z",
+  "mainImage": "emergency.png",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 32,
+  "amountRaised": "14819",
+  "goal": "32794",
+  "contributors": 429,
+  "category": "Emergency",
+  "country": "Canada",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb22"
+  },
+  "title": "Earthquake Relief Now",
+  "description": "Soutenez notre mission : Earthquake Relief Now.",
+  "createdAt": "2025-04-26T18:10:18.673156Z",
+  "mainImage": "emergency.png",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 30,
+  "amountRaised": "16010",
+  "goal": "22085",
+  "contributors": 492,
+  "category": "Emergency",
+  "country": "Germany",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb23"
+  },
+  "title": "Disaster Support Unit",
+  "description": "Soutenez notre mission : Disaster Support Unit.",
+  "createdAt": "2025-04-22T18:10:18.673156Z",
+  "mainImage": "emergency.png",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 55,
+  "amountRaised": "4183",
+  "goal": "9031",
+  "contributors": 725,
+  "category": "Emergency",
+  "country": "France",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb24"
+  },
+  "title": "Save the Forest",
+  "description": "Soutenez notre mission : Save the Forest.",
+  "createdAt": "2025-04-29T18:10:18.673156Z",
+  "mainImage": "env.jpg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 23,
+  "amountRaised": "25901",
+  "goal": "34400",
+  "contributors": 233,
+  "category": "Environment",
+  "country": "Brazil",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb25"
+  },
+  "title": "Operation Lifeline",
+  "description": "Soutenez notre mission : Operation Lifeline.",
+  "createdAt": "2025-04-24T18:10:18.673156Z",
+  "mainImage": "medical.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 40,
+  "amountRaised": "15254",
+  "goal": "40173",
+  "contributors": 768,
+  "category": "Medical",
+  "country": "India",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb26"
+  },
+  "title": "Emergency Aid Network",
+  "description": "Soutenez notre mission : Emergency Aid Network.",
+  "createdAt": "2025-04-24T18:10:18.673156Z",
+  "mainImage": "crisis.jpg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 53,
+  "amountRaised": "23506",
+  "goal": "29799",
+  "contributors": 973,
+  "category": "Crisis Relief",
+  "country": "Germany",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb27"
+  },
+  "title": "Earthquake Relief Now",
+  "description": "Soutenez notre mission : Earthquake Relief Now.",
+  "createdAt": "2025-04-22T18:10:18.673156Z",
+  "mainImage": "emergency.png",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 35,
+  "amountRaised": "2613",
+  "goal": "15037",
+  "contributors": 47,
+  "category": "Emergency",
+  "country": "India",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb28"
+  },
+  "title": "Clean Ocean Project",
+  "description": "Soutenez notre mission : Clean Ocean Project.",
+  "createdAt": "2025-04-22T18:10:18.673156Z",
+  "mainImage": "env.jpg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 30,
+  "amountRaised": "18060",
+  "goal": "40327",
+  "contributors": 451,
+  "category": "Environment",
+  "country": "Canada",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb29"
+  },
+  "title": "Operation Lifeline",
+  "description": "Soutenez notre mission : Operation Lifeline.",
+  "createdAt": "2025-04-29T18:10:18.673156Z",
+  "mainImage": "medical.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 33,
+  "amountRaised": "7966",
+  "goal": "14008",
+  "contributors": 716,
+  "category": "Medical",
+  "country": "United States",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb2a"
+  },
+  "title": "Rewilding Africa",
+  "description": "Soutenez notre mission : Rewilding Africa.",
+  "createdAt": "2025-04-26T18:10:18.673156Z",
+  "mainImage": "env.jpg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 29,
+  "amountRaised": "13437",
+  "goal": "19579",
+  "contributors": 821,
+  "category": "Environment",
+  "country": "India",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb2b"
+  },
+  "title": "Emergency Aid Network",
+  "description": "Soutenez notre mission : Emergency Aid Network.",
+  "createdAt": "2025-04-29T18:10:18.673156Z",
+  "mainImage": "crisis.jpg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 28,
+  "amountRaised": "8057",
+  "goal": "25699",
+  "contributors": 463,
+  "category": "Crisis Relief",
+  "country": "India",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb2c"
+  },
+  "title": "Bright Futures Fund",
+  "description": "Soutenez notre mission : Bright Futures Fund.",
+  "createdAt": "2025-04-23T18:10:18.673156Z",
+  "mainImage": "nonprofit.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 21,
+  "amountRaised": "23274",
+  "goal": "35103",
+  "contributors": 720,
+  "category": "Nonprofit",
+  "country": "India",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb2d"
+  },
+  "title": "Rescue & Recover",
+  "description": "Soutenez notre mission : Rescue & Recover.",
+  "createdAt": "2025-04-22T18:10:18.673156Z",
+  "mainImage": "emergency.png",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 38,
+  "amountRaised": "10156",
+  "goal": "18149",
+  "contributors": 862,
+  "category": "Emergency",
+  "country": "Canada",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb2e"
+  },
+  "title": "Remote Clinic Revival",
+  "description": "Soutenez notre mission : Remote Clinic Revival.",
+  "createdAt": "2025-04-27T18:10:18.673156Z",
+  "mainImage": "medical.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 53,
+  "amountRaised": "18135",
+  "goal": "34289",
+  "contributors": 102,
+  "category": "Medical",
+  "country": "Canada",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb2f"
+  },
+  "title": "Indie Doc Project",
+  "description": "Soutenez notre mission : Indie Doc Project.",
+  "createdAt": "2025-04-21T18:10:18.673156Z",
+  "mainImage": "film.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 46,
+  "amountRaised": "5777",
+  "goal": "12510",
+  "contributors": 480,
+  "category": "Film & Videos",
+  "country": "India",
+  "type": "deadline",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6813b958c4787fe288a6fb30"
+  },
+  "title": "Shelter for Strays",
+  "description": "Soutenez notre mission : Shelter for Strays.",
+  "createdAt": "2025-04-26T18:10:18.673156Z",
+  "mainImage": "animal.jpeg",
+  "createdBy": "user-id-placeholder",
+  "createdByImage": "user-image-placeholder",
+  "daysLeft": 59,
+  "amountRaised": "12614",
+  "goal": "34907",
+  "contributors": 951,
+  "category": "Animals",
+  "country": "South Africa",
+  "type": "deadline",
+  "__v": 0
+}]

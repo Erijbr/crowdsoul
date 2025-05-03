@@ -85,7 +85,7 @@ const CampaignCard = ({ data, showActions }: IProps) => {
     return (
         <Card radius="sm" shadow="md" ml="xs" component={Link} {...linkProps} className={classes.card}>
             <Card.Section>
-                <Image src={mainImage} height={280} className={classes.image} />
+                <Image src={`http://localhost:5000/api/campaigns/uploads/${mainImage}`} height={280} className={classes.image} />
             </Card.Section>
 
             <Card.Section pt={0} px="md" pb="md">

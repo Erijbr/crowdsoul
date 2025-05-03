@@ -80,7 +80,7 @@ const CampaignDetailsPage = (): JSX.Element => {
                             <Stack>
                                 <Card padding="md" shadow="sm">
                                     <Card.Section>
-                                        <Image src={campaign?.mainImage} height={480}/>
+                                        <Image src={`http://localhost:5000/api/campaigns/uploads/${campaign?.mainImage}`} height={480}/>
                                     </Card.Section>
                                     <Stack mt="md">
                                         <Title>{campaign?.title}</Title>

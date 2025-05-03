@@ -644,29 +644,300 @@
 
 // export default CreateCampaignPage;
 
+// import { Helmet } from "react-helmet";
+// import {
+//     Box, Button, Checkbox, Container, Group, NumberInput, Paper, PaperProps,
+//     Radio, SimpleGrid, Stack, Stepper, Text, TextInput, Title, TitleProps,
+//     useMantineTheme
+// } from "@mantine/core";
+// import { Link, RichTextEditor } from '@mantine/tiptap';
+// import { useEditor } from '@tiptap/react';
+// import Highlight from '@tiptap/extension-highlight';
+// import StarterKit from '@tiptap/starter-kit';
+// import Underline from '@tiptap/extension-underline';
+// import TextAlign from '@tiptap/extension-text-align';
+// import Superscript from '@tiptap/extension-superscript';
+// import SubScript from '@tiptap/extension-subscript';
+// import React, { useState } from "react";
+// // import { ObjectId } from 'mongodb';
+
+// import { DateInput } from "@mantine/dates";
+// import {
+//     IconCalendar, IconCheck, IconChevronLeft, IconChevronRight, IconLink
+// } from "@tabler/icons-react";
+// import { CategorySelect, CountrySelect, CurrencySelect, FileDropzone } from "../components";
+// // import { } from "../link/Campaigns"; // Ton appel API backend
+// import CampaignsData from "../link/Campaigns";
+
+// const CreateCampaignPage = () => {
+//     const theme = useMantineTheme();
+//     const [active, setActive] = useState(0);
+//     const [target, setTarget] = useState('deadline');
+//     const [deadlineDate, setDeadlineDate] = useState<Date | null>(null);
+//     const [minimumCheck, setMinimumCheck] = useState(false);
+//     interface StoryContentItem {
+//         text?: string;
+//         content?: StoryContentItem[];
+//       }
+
+//     const [uploadedImages, setUploadedImages] = useState<File[]>([]);
+//     const [videoUrl, setVideoUrl] = useState('');
+
+//     const [campaignDetails, setCampaignDetails] = useState({
+//         title: '', category: '', country: '', city: '', currency: '',
+//         targetAmount: '', allowOverFunding: false, donationType: 'any', story: ""
+//     });
+
+//     const editor = useEditor({
+//         extensions: [
+//             StarterKit, Underline, Link, Superscript, SubScript, Highlight,
+//             TextAlign.configure({ types: ['heading', 'paragraph'] }),
+//         ],
+//         content: '',
+//         onUpdate: ({ editor }) => {
+//             setCampaignDetails(prev => ({ ...prev, story: JSON.stringify(editor.getJSON()) }));
+//         },
+//     });
+
+//     const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+//         const { name, value, type } = event.currentTarget;
+//         setCampaignDetails(prev => ({
+//             ...prev,
+//             [name]: type === 'checkbox' ? event.currentTarget.checked : value,
+//         }));
+//     };
+//     // const extractText = (story: any): string => {
+//     //     if (story && story.content && Array.isArray(story.content)) {
+            
+//     //         return story.content
+//     //             .map((item: any) => item.content && item.content.map((subItem: any) => subItem.text).join(''))
+//     //             .join('');  // Assure que tous les morceaux de texte sont bien joints
+//     //     }
+//     //     return '';
+//     // };
+//     const extractTextFromEditor = (story:any ): string => {
+//         // Si 'story' n'est pas défini ou est vide, on retourne une chaîne vide
+//         if (!story || !Array.isArray(story.content)) {
+//             console.log("Structure inattendue pour campaignDetails.story:", story);
+//             return '';  // Retourne une chaîne vide si structure non valide
+//         }
+    
+//         // Sinon, on parcourt les éléments de 'content' pour extraire le texte
+//         return story.content
+//             .map((item: any) => {
+//                 // Vérifie si cet élément a un sous-élément 'content', auquel cas on l'examine aussi
+//                 if (item.content && Array.isArray(item.content)) {
+//                     return extractTextFromEditor(item);  // Appel récursif
+//                 }
+//                 // Sinon, on récupère le texte directement
+//                 return item.text || '';
+//             })
+//             .join(' ');  // On joint les morceaux de texte avec un espace
+//     };
+    
+    
+
+//     const handleSubmit = async () => {
+//         console.log(campaignDetails.story)
+//         console.log(typeof(campaignDetails.story))
+//         const formData = new FormData();
+//     uploadedImages.forEach((file) => {
+//         formData.append("images", file);  // "images" doit correspondre à ce que le backend attend
+//     });
+
+//     await fetch("http://localhost:5000/api/campaigns/upload", {
+//         method: "POST",
+//         body: formData,
+//     });
+
+
+//         try {
+//             const descriptionText = extractTextFromEditor(campaignDetails.story);  // Extrait le texte brut de campaignDetails.story
+
+//             const campaignData = {
+//                 // _id:"0",
+//                 // _id: new ObjectId(),
+//                 title: campaignDetails.title,
+//                 description: campaignDetails.story,
+//                 createdAt: new Date().toISOString(),
+//                 mainImage: uploadedImages.length > 0 ? uploadedImages[0]?.name : '',
+//                 additionalImages: uploadedImages.slice(1).map(file => file.name),
+//                 videoUrl: videoUrl,
+//                 createdBy: 'user-id-placeholder',
+//                 createdByImage: 'user-image-placeholder',
+//                 daysLeft: deadlineDate ? Math.ceil((deadlineDate.getTime() - Date.now()) / (1000 * 60 * 60 * 24)) : 0,
+//                 amountRaised: '0',
+//                 goal: campaignDetails.targetAmount,
+//                 contributors: 0,
+//                 category: campaignDetails.category,
+//                 country: campaignDetails.country,
+//                 city: campaignDetails.city,
+//                 currency: campaignDetails.currency,
+//                 allowOverFunding: campaignDetails.allowOverFunding,
+//                 type: target,
+//                 deadline: target === 'deadline' ? deadlineDate?.toISOString() : null,
+//                 ongoing: target === 'no-deadline',
+//                 donationType: campaignDetails.donationType,
+//             };
+
+//             console.log("Envoi au backend:", campaignData);
+//             await CampaignsData.addCampaign(campaignData);
+//             alert("Campagne créée avec succès !");
+//         } catch (error) {
+//             console.error("Erreur lors de l'envoi:", error);
+//             alert("Erreur serveur !");
+//         }
+//     };
+
+//     const nextStep = () => setActive((current) => (current < 2 ? current + 1 : current));
+//     const prevStep = () => setActive((current) => (current > 0 ? current - 1 : current));
+
+//     const titleProps: TitleProps = { size: 24, mb: "md" };
+//     const paperProps: PaperProps = { p: "md", withBorder: false, shadow: 'sm', mb: "md", sx: { backgroundColor: theme.white } };
+
+//     return (
+//         <>
+//             <Helmet><title>Create campaign</title></Helmet>
+//             <Box>
+//                 <Container my={36}>
+//                     <Title mb="xl" align="center">Create your campaign</Title>
+//                     <Stepper active={active} onStepClick={setActive} breakpoint="sm">
+
+//                         {/* Step 1 - Informations de base */}
+//                         <Stepper.Step label="Get started" description="Set essential fundraiser details">
+//                             <Title {...titleProps}>Campaign Information</Title>
+//                             <Paper {...paperProps}>
+//                                 <SimpleGrid cols={2}>
+//                                     <TextInput label="Title" name="title" onChange={handleInputChange} />
+//                                     <CategorySelect onChange={(val) => setCampaignDetails(prev => ({ ...prev, category: val || '' }))} />
+//                                 </SimpleGrid>
+//                             </Paper>
+//                             <Paper {...paperProps}>
+//                                 <SimpleGrid cols={2}>
+//                                     <CountrySelect onChange={(val) => setCampaignDetails(prev => ({ ...prev, country: val || '' }))} />
+//                                     <TextInput label="City" name="city" onChange={handleInputChange} />
+//                                 </SimpleGrid>
+//                             </Paper>
+//                             <Paper {...paperProps}>
+//                                 <CurrencySelect onChange={(val) => setCampaignDetails(prev => ({ ...prev, currency: val || '' }))} />
+//                                 <NumberInput
+//                                     label="Target amount"
+//                                     name="targetAmount"
+//                                     onChange={(val) => setCampaignDetails(prev => ({ ...prev, targetAmount: val?.toString() || '' }))}
+//                                 />
+//                                 <Radio.Group
+//                                     label="Fundraiser type"
+//                                     value={target}
+//                                     onChange={setTarget}
+//                                 >
+//                                     <Group mt="xs">
+//                                         <Radio value="deadline" label="With deadline" />
+//                                         <Radio value="no-deadline" label="Ongoing" />
+//                                     </Group>
+//                                 </Radio.Group>
+
+//                                 {target === 'deadline' && (
+//                                     <DateInput
+//                                         value={deadlineDate}
+//                                         onChange={setDeadlineDate}
+//                                         label="Deadline date"
+//                                         placeholder="Pick a date"
+//                                         icon={<IconCalendar size={18} />}
+//                                     />
+//                                 )}
+
+//                                 <Checkbox
+//                                     label="Allow funding over goal?"
+//                                     checked={campaignDetails.allowOverFunding}
+//                                     onChange={(e) => setCampaignDetails(prev => ({ ...prev, allowOverFunding: e.currentTarget.checked }))}
+//                                 />
+//                             </Paper>
+//                         </Stepper.Step>
+
+//                         {/* Step 2 - Story */}
+//                         <Stepper.Step label="Campaign story" description="Tell your story">
+//                             <Title {...titleProps}>Your Campaign Story</Title>
+//                             <Paper {...paperProps}>
+//                                 <Stack spacing="sm">
+//                                     <Text size="sm">
+//                                         Explain why you're raising money, what the funds will be used for, and how much you value the support.
+//                                     </Text>
+
+//                                     {/* Editeur */}
+//                                     <RichTextEditor editor={editor}>
+//                                         <RichTextEditor.Toolbar sticky stickyOffset={60}>
+//                                             <RichTextEditor.ControlsGroup>
+//                                                 <RichTextEditor.Bold />
+//                                                 <RichTextEditor.Italic />
+//                                                 <RichTextEditor.Underline />
+//                                                 <RichTextEditor.Link />
+//                                             </RichTextEditor.ControlsGroup>
+//                                             <RichTextEditor.ControlsGroup>
+//                                                 <RichTextEditor.H1 />
+//                                                 <RichTextEditor.H2 />
+//                                                 <RichTextEditor.H3 />
+//                                                 <RichTextEditor.BulletList />
+//                                                 <RichTextEditor.OrderedList />
+//                                             </RichTextEditor.ControlsGroup>
+//                                         </RichTextEditor.Toolbar>
+//                                         <RichTextEditor.Content />
+//                                     </RichTextEditor>
+
+//                                     {/* Upload images */}
+//                                     <FileDropzone
+//                                         label="Upload fundraiser photos"
+//                                         description="You can select and upload several images"
+//                                         multiple
+//                                         onDrop={(files) => setUploadedImages(files)}
+//                                     />
+
+//                                     {/* Lien vidéo */}
+//                                     <TextInput
+//                                         label="Video URL"
+//                                         description="YouTube or Vimeo link (optional)"
+//                                         placeholder="https://youtube.com/..."
+//                                         icon={<IconLink size={18} />}
+//                                         value={videoUrl}
+//                                         onChange={(e) => setVideoUrl(e.currentTarget.value)}
+//                                     />
+//                                 </Stack>
+//                             </Paper>
+//                         </Stepper.Step>
+
+//                         {/* Step 3 - Fin */}
+//                         <Stepper.Completed>
+//                             <Title {...titleProps} align="center" my="xl">Completed, ready to launch!</Title>
+//                         </Stepper.Completed>
+
+//                     </Stepper>
+
+//                     {/* Boutons navigation */}
+//                     <Group position="center" mt="xl">
+//                         <Button variant="default" onClick={prevStep} leftIcon={<IconChevronLeft size={18} />}>Back</Button>
+//                         {active < 2 ? (
+//                             <Button onClick={nextStep} leftIcon={<IconChevronRight size={18} />}>Next step</Button>
+//                         ) : (
+//                             <Button onClick={handleSubmit} leftIcon={<IconCheck size={18} />}>Launch Campaign</Button>
+//                         )}
+//                     </Group>
+//                 </Container>
+//             </Box>
+//         </>
+//     );
+// };
+
+// export default CreateCampaignPage;
 import { Helmet } from "react-helmet";
 import {
     Box, Button, Checkbox, Container, Group, NumberInput, Paper, PaperProps,
     Radio, SimpleGrid, Stack, Stepper, Text, TextInput, Title, TitleProps,
     useMantineTheme
 } from "@mantine/core";
-import { Link, RichTextEditor } from '@mantine/tiptap';
-import { useEditor } from '@tiptap/react';
-import Highlight from '@tiptap/extension-highlight';
-import StarterKit from '@tiptap/starter-kit';
-import Underline from '@tiptap/extension-underline';
-import TextAlign from '@tiptap/extension-text-align';
-import Superscript from '@tiptap/extension-superscript';
-import SubScript from '@tiptap/extension-subscript';
-import React, { useState } from "react";
-// import { ObjectId } from 'mongodb';
-
 import { DateInput } from "@mantine/dates";
-import {
-    IconCalendar, IconCheck, IconChevronLeft, IconChevronRight, IconLink
-} from "@tabler/icons-react";
+
+import { useState } from "react";
+import { IconCalendar, IconCheck, IconChevronLeft, IconChevronRight, IconLink } from "@tabler/icons-react";
 import { CategorySelect, CountrySelect, CurrencySelect, FileDropzone } from "../components";
-// import { } from "../link/Campaigns"; // Ton appel API backend
 import CampaignsData from "../link/Campaigns";
 
 const CreateCampaignPage = () => {
@@ -675,28 +946,12 @@ const CreateCampaignPage = () => {
     const [target, setTarget] = useState('deadline');
     const [deadlineDate, setDeadlineDate] = useState<Date | null>(null);
     const [minimumCheck, setMinimumCheck] = useState(false);
-    interface StoryContentItem {
-        text?: string;
-        content?: StoryContentItem[];
-      }
-
     const [uploadedImages, setUploadedImages] = useState<File[]>([]);
     const [videoUrl, setVideoUrl] = useState('');
 
     const [campaignDetails, setCampaignDetails] = useState({
         title: '', category: '', country: '', city: '', currency: '',
-        targetAmount: '', allowOverFunding: false, donationType: 'any', story: ""
-    });
-
-    const editor = useEditor({
-        extensions: [
-            StarterKit, Underline, Link, Superscript, SubScript, Highlight,
-            TextAlign.configure({ types: ['heading', 'paragraph'] }),
-        ],
-        content: '',
-        onUpdate: ({ editor }) => {
-            setCampaignDetails(prev => ({ ...prev, story: JSON.stringify(editor.getJSON()) }));
-        },
+        targetAmount: '', allowOverFunding: false, donationType: 'any', story: ''
     });
 
     const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -706,49 +961,22 @@ const CreateCampaignPage = () => {
             [name]: type === 'checkbox' ? event.currentTarget.checked : value,
         }));
     };
-    // const extractText = (story: any): string => {
-    //     if (story && story.content && Array.isArray(story.content)) {
-            
-    //         return story.content
-    //             .map((item: any) => item.content && item.content.map((subItem: any) => subItem.text).join(''))
-    //             .join('');  // Assure que tous les morceaux de texte sont bien joints
-    //     }
-    //     return '';
-    // };
-    const extractTextFromEditor = (story:any ): string => {
-        // Si 'story' n'est pas défini ou est vide, on retourne une chaîne vide
-        if (!story || !Array.isArray(story.content)) {
-            console.log("Structure inattendue pour campaignDetails.story:", story);
-            return '';  // Retourne une chaîne vide si structure non valide
-        }
-    
-        // Sinon, on parcourt les éléments de 'content' pour extraire le texte
-        return story.content
-            .map((item: any) => {
-                // Vérifie si cet élément a un sous-élément 'content', auquel cas on l'examine aussi
-                if (item.content && Array.isArray(item.content)) {
-                    return extractTextFromEditor(item);  // Appel récursif
-                }
-                // Sinon, on récupère le texte directement
-                return item.text || '';
-            })
-            .join(' ');  // On joint les morceaux de texte avec un espace
-    };
-    
-    
 
     const handleSubmit = async () => {
-        console.log(campaignDetails.story)
-        console.log(typeof(campaignDetails.story))
+        const formData = new FormData();
+        uploadedImages.forEach((file) => {
+            formData.append("images", file);  // "images" doit correspondre à ce que le backend attend
+        });
+
+        await fetch("http://localhost:5000/api/campaigns/upload", {
+            method: "POST",
+            body: formData,
+        });
 
         try {
-            const descriptionText = extractTextFromEditor(campaignDetails.story);  // Extrait le texte brut de campaignDetails.story
-
             const campaignData = {
-                // _id:"0",
-                // _id: new ObjectId(),
                 title: campaignDetails.title,
-                description: campaignDetails.story,
+                description: campaignDetails.story, // Maintenant c'est du texte brut
                 createdAt: new Date().toISOString(),
                 mainImage: uploadedImages.length > 0 ? uploadedImages[0]?.name : '',
                 additionalImages: uploadedImages.slice(1).map(file => file.name),
@@ -813,8 +1041,7 @@ const CreateCampaignPage = () => {
                                 <NumberInput
                                     label="Target amount"
                                     name="targetAmount"
-                                    onChange={(val) => setCampaignDetails(prev => ({ ...prev, targetAmount: val?.toString() || '' }))}
-                                />
+                                    onChange={(val) => setCampaignDetails(prev => ({ ...prev, targetAmount: val?.toString() || '' }))} />
                                 <Radio.Group
                                     label="Fundraiser type"
                                     value={target}
@@ -839,8 +1066,7 @@ const CreateCampaignPage = () => {
                                 <Checkbox
                                     label="Allow funding over goal?"
                                     checked={campaignDetails.allowOverFunding}
-                                    onChange={(e) => setCampaignDetails(prev => ({ ...prev, allowOverFunding: e.currentTarget.checked }))}
-                                />
+                                    onChange={(e) => setCampaignDetails(prev => ({ ...prev, allowOverFunding: e.currentTarget.checked }))} />
                             </Paper>
                         </Stepper.Step>
 
@@ -853,25 +1079,15 @@ const CreateCampaignPage = () => {
                                         Explain why you're raising money, what the funds will be used for, and how much you value the support.
                                     </Text>
 
-                                    {/* Editeur */}
-                                    <RichTextEditor editor={editor}>
-                                        <RichTextEditor.Toolbar sticky stickyOffset={60}>
-                                            <RichTextEditor.ControlsGroup>
-                                                <RichTextEditor.Bold />
-                                                <RichTextEditor.Italic />
-                                                <RichTextEditor.Underline />
-                                                <RichTextEditor.Link />
-                                            </RichTextEditor.ControlsGroup>
-                                            <RichTextEditor.ControlsGroup>
-                                                <RichTextEditor.H1 />
-                                                <RichTextEditor.H2 />
-                                                <RichTextEditor.H3 />
-                                                <RichTextEditor.BulletList />
-                                                <RichTextEditor.OrderedList />
-                                            </RichTextEditor.ControlsGroup>
-                                        </RichTextEditor.Toolbar>
-                                        <RichTextEditor.Content />
-                                    </RichTextEditor>
+                                    {/* Nouveau champ texte pour la description */}
+                                    <TextInput
+                                        label="Campaign Story"
+                                        placeholder="Tell your story here"
+                                        value={campaignDetails.story|| ''}
+                                        onChange={(e) => setCampaignDetails(prev => ({ ...prev, story: e.target.value }))}
+                                        // multiline
+                                        // minRows={4}
+                                    />
 
                                     {/* Upload images */}
                                     <FileDropzone
@@ -888,8 +1104,7 @@ const CreateCampaignPage = () => {
                                         placeholder="https://youtube.com/..."
                                         icon={<IconLink size={18} />}
                                         value={videoUrl}
-                                        onChange={(e) => setVideoUrl(e.currentTarget.value)}
-                                    />
+                                        onChange={(e) => setVideoUrl(e.currentTarget.value)} />
                                 </Stack>
                             </Paper>
                         </Stepper.Step>

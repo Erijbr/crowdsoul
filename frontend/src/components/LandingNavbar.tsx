@@ -246,8 +246,8 @@ const LandingNavbar = ({compressed}: IProps) => {
                             <Button component={Link} to="/campaigns" className={classes.link} {...buttonProps}>
                                 Campaigns
                             </Button>
-                            <HoverCard width={700} position="bottom" radius="sm" shadow="md" withinPortal>
-                                <HoverCard.Target>
+                            {/* <HoverCard width={700} position="bottom" radius="sm" shadow="md" withinPortal>
+                                {/* <HoverCard.Target>
                                     <a href="#" className={classes.link}>
                                         <Center inline>
                                             <Box component="span" mr={5}>
@@ -256,9 +256,9 @@ const LandingNavbar = ({compressed}: IProps) => {
                                             <IconChevronDown size={18} className={classes.linkIcon}/>
                                         </Center>
                                     </a>
-                                </HoverCard.Target>
+                                </HoverCard.Target> */}
 
-                                <HoverCard.Dropdown sx={{overflow: 'hidden'}}>
+                                {/* <HoverCard.Dropdown sx={{overflow: 'hidden'}}>
                                     <Group position="apart" px="md">
                                         <Text fw={500} color="dark">Categories</Text>
                                         <Button variant="default">See all</Button>
@@ -273,16 +273,16 @@ const LandingNavbar = ({compressed}: IProps) => {
                                     <SimpleGrid cols={3} spacing={0}>
                                         {links}
                                     </SimpleGrid>
-                                </HoverCard.Dropdown>
-                            </HoverCard>
-                            <Button
+                                </HoverCard.Dropdown> */}
+                            {/* </HoverCard> */}
+                            {/* <Button
                                 leftIcon={<IconSearch size={18} className={classes.linkIcon}/>}
                                 onClick={toggleSearchDrawer}
                                 className={classes.link}
                                 {...buttonProps}
                             >
                                 Search
-                            </Button>
+                            </Button>  */}
                             <Button component={Link} to="/create-campaign" className={classes.link} {...buttonProps}>
                                 Start a campaign
                             </Button>

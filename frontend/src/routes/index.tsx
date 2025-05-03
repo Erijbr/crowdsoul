@@ -9,7 +9,8 @@ import {
     HomePage,
     HowItWorksPage,
     LoginPage,
-    SignupPage
+    SignupPage,
+    Chatbot
 } from "../pages";
 import {DashboardLayout, PublicLayout} from "../layout";
 
@@ -23,7 +24,12 @@ const router = createBrowserRouter([
                 path: '',
                 index: true,
                 element: <HomePage/>
-            }
+            },
+            {
+                path: "/chatbot",
+                element: <Chatbot />,
+                errorElement: <Error404Page/>
+              }
         ]
     },
     {
@@ -31,6 +37,8 @@ const router = createBrowserRouter([
         element: <LoginPage/>,
         errorElement: <Error404Page/>,
     },
+   
+      
     {
         path: "signup",
         element: <SignupPage/>,
